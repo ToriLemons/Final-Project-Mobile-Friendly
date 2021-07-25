@@ -1,0 +1,25 @@
+/* ALL BODY */
+body {
+    text-align: center;
+}
+
+.row {
+    justify-content: space-evenly;
+}
+
+/* NAV BAR */
+
+
+/* FOOTER */
+footer {
+    padding: 15px 0px;
+    background: chartreuse;
+}
+
+.fa {
+    padding: 20px;
+}
+
+.copyright {
+    color: rgb(255, 232, 192);
+}
