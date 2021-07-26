@@ -1,0 +1,19 @@
+@import url(style.css);
+
+h2 {
+    padding-top: 25px;
+}
+
+form {
+    justify-content: space-evenly;
+    border-radius: 35px;
+    /* background-color: rgb(255, 232, 192); */
+    border: 2px solid rgb(161, 96, 38);
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+/* Background Image:
+background: url(paper.gif);
+background-position: left top;
+background-repeat: repeat; */

@@ -1,25 +1,38 @@
 /* ALL BODY */
 body {
     text-align: center;
+    background-color: rgb(69, 76, 26);
 }
 
 .row {
     justify-content: space-evenly;
 }
 
-/* NAV BAR */
+a {
+    color: rgb(255, 232, 192);
+}
 
+/* NAV BAR */
+nav {
+    background-color: rgb(69, 76, 26, .75);
+}
 
 /* FOOTER */
+hr {
+    border-width: 3px;
+}
 footer {
-    padding: 15px 0px;
-    background: chartreuse;
+    color: rgb(227, 160, 22);
 }
 
 .fa {
     padding: 20px;
 }
 
-.copyright {
-    color: rgb(255, 232, 192);
-}
+/* colors:
+    rgb(255, 232, 192) -light tan
+    rgb(227, 160, 22) -burnt yellow
+    rgb(161, 96, 38) -orangey brown
+    rgb(69, 76, 26) -dark brownish green
+    rgb(0, 25, 48) -accent dark navy
+ */
