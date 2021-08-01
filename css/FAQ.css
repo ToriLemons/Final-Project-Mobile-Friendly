@@ -1,1 +1,32 @@
 @import url(style.css);
+
+.card {
+    border: 1px solid rgb(255, 232, 192);
+}
+
+.btn-link {
+    color: white;
+    text-decoration: none;
+}
+
+.btn-link:hover {
+    color: rgb(227, 160, 22);
+    text-decoration: none;
+}
+
+.card-header {
+    background-color: rgb(0, 25, 48);
+}
+
+.card-body {
+    background-color: rgb(69, 76, 26);
+    color: rgb(255, 232, 192);
+}
+
+/* colors:
+    rgb(255, 232, 192) -light tan
+    rgb(227, 160, 22) -burnt yellow
+    rgb(161, 96, 38) -orangey brown
+    rgb(69, 76, 26) -dark brownish green
+    rgb(0, 25, 48) -accent dark navy
+ */

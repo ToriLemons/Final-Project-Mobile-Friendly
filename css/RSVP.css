@@ -2,6 +2,7 @@
 
 h2 {
     padding-top: 25px;
+    color: rgb(255, 232, 192);
 }
 
 form {
@@ -11,6 +12,10 @@ form {
     border: 2px solid rgb(161, 96, 38);
     margin-bottom: 20px;
     padding: 10px;
+}
+
+button {
+    background-color: rgb(255, 232, 192);
 }
 
 /* Background Image:

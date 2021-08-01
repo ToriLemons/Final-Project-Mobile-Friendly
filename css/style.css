@@ -4,6 +4,10 @@ body {
     background-color: rgb(69, 76, 26);
 }
 
+.text-tan {
+    color: rgb(255, 232, 192);
+}
+
 .row {
     justify-content: space-evenly;
 }
@@ -12,9 +16,50 @@ a {
     color: rgb(255, 232, 192);
 }
 
+p {
+    color: rgb(255, 232, 192);
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
 /* NAV BAR */
 nav {
     background-color: rgb(69, 76, 26, .75);
+}
+
+/* IMAGE SCROLLING */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+}
+
+.bgimg-1 {
+    background-image: url(/photos/couples\ shoes.jpg);
+    height: 80vw;
+}
+
+.bgimg-2 {
+    background-image: url(/photos/rings\ on\ name\ box.jpg);
+    height: 40vw;
+}
+
+.bgimg-3 {
+    background-image: url(/photos/humans\ getting\ married.jpg);
+    height: 40vw;
+}
+
+.solidp {
+    margin: 5vw;
 }
 
 /* FOOTER */
@@ -36,3 +81,9 @@ footer {
     rgb(69, 76, 26) -dark brownish green
     rgb(0, 25, 48) -accent dark navy
  */
+
+ @media only screen and (max-device-width: 1366px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+      background-attachment: scroll;
+    }
+  }
