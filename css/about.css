@@ -1,0 +1,35 @@
+@import url(style.css);
+
+.scrollspyrow {
+    position: relative;
+    border: solid white;
+}
+
+.timelinenav {
+    background-color: none;
+    position: fixed;
+    top: 30vh;
+    left: 1vw;
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+    justify-content: space-between;
+}
+
+.timelinebody {
+    margin-left: 10vw;
+}
+
+h4 {
+
+}
+
+p {
+    text-align: right;
+}
+
+.vl {
+  border-left: 3px solid green;
+  height: 5vh;
+  margin-left: 2vw;
+}
