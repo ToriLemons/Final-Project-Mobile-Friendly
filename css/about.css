@@ -20,11 +20,12 @@
 
 /* TEXT */
 .timelinebody {
-    margin: 5vw 2vw 0 10vw
+    margin: 3vw 2vw 0 10vw
 }
 
 h4 {
     color: rgb(161, 96, 38);
+    padding-top: 8vh;
 }
 
 p {
