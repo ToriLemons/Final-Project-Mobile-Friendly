@@ -1,10 +1,6 @@
 @import url(style.css);
 
-.scrollspyrow {
-    position: relative;
-    border: solid white;
-}
-
+/* SIDE NAV */
 .timelinenav {
     background-color: none;
     position: fixed;
@@ -16,20 +12,24 @@
     justify-content: space-between;
 }
 
+.vl {
+    border-left: 3px solid rgb(161, 96, 38);
+    height: 5vh;
+    margin-left: 2vw;
+}
+
+/* TEXT */
 .timelinebody {
-    margin-left: 10vw;
+    margin: 5vw 2vw 0 10vw
 }
 
 h4 {
-
+    color: rgb(161, 96, 38);
 }
 
 p {
     text-align: right;
+    padding-bottom: 10vw;
 }
 
-.vl {
-  border-left: 3px solid green;
-  height: 5vh;
-  margin-left: 2vw;
-}
+
