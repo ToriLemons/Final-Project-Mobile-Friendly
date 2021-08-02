@@ -44,17 +44,17 @@ nav {
 }
 
 .bgimg-1 {
-    background-image: url(/photos/couples\ shoes.jpg);
+    background-image: url(../photos/couples%20shoes.jpg);
     height: 80vw;
 }
 
 .bgimg-2 {
-    background-image: url(/photos/rings\ on\ name\ box.jpg);
+    background-image: url(../photos/rings%20on%20name%20box.jpg);
     height: 40vw;
 }
 
 .bgimg-3 {
-    background-image: url(/photos/humans\ getting\ married.jpg);
+    background-image: url(../photos/humans%20getting%20married.jpg);
     height: 40vw;
 }
 
