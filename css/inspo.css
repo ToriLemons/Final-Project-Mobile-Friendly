@@ -1,0 +1,33 @@
+@import url(style.css);
+
+img {
+    padding: 0 40vh;
+}
+
+@media screen and (max-width: 1600px) {
+    img {
+      padding: 0 30vh;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    img {
+      padding: 0 20vh;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    img {
+      padding: 0 10vh;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    img {
+      padding: 0vh;
+    }
+}
+
+.logo {
+    padding: 0;
+}
