@@ -45,21 +45,21 @@ nav {
 
 .bgimg-1 {
     background-image: url(../photos/couples%20shoes.jpg);
-    height: 80vw;
+    height: 95vh;
 }
 
 .bgimg-2 {
     background-image: url(../photos/rings%20on%20name%20box.jpg);
-    height: 40vw;
+    height: 40vh;
 }
 
 .bgimg-3 {
     background-image: url(../photos/humans%20getting%20married.jpg);
-    height: 40vw;
+    height: 50vh;
 }
 
 .solidp {
-    margin: 5vw;
+    margin: 10vh;
 }
 
 /* FOOTER */
