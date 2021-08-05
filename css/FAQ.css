@@ -21,6 +21,8 @@
 .card-body {
     background-color: rgb(69, 76, 26);
     color: rgb(255, 232, 192);
+    font-family:'newsreader', serif;
+    font-size: large;
 }
 
 /* colors:

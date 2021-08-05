@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+
 /* ALL BODY */
 body {
     text-align: center;
@@ -14,15 +17,42 @@ body {
 
 a {
     color: rgb(255, 232, 192);
+    font-family:'Cinzel', serif;
 }
 
 p {
     color: rgb(255, 232, 192);
+    font-family:'newsreader', serif;
+    font-size: 2vh;
 }
 
 a:hover {
     text-decoration: none;
     color: white;
+}
+
+h1 {
+    font-family:'newsreader', serif;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 7vh;
+}
+
+h2 {
+    font-family:'newsreader', serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 5vh;
+}
+
+h4 {
+    font-family:'Cinzel', serif;
+    font-size: 3vh;
+}
+
+h5 {
+    font-family:'newsreader', serif;
+    font-weight: bold;
 }
 
 /* NAV BAR */
@@ -74,15 +104,19 @@ footer {
     padding: 20px;
 }
 
+span {
+    font-family:'Cinzel', serif;
+}
+
 /* colors:
     rgb(255, 232, 192) -light tan
     rgb(227, 160, 22) -burnt yellow
     rgb(161, 96, 38) -orangey brown
     rgb(69, 76, 26) -dark brownish green
     rgb(0, 25, 48) -accent dark navy
- */
+*/
 
- @media only screen and (max-device-width: 1366px) {
+@media only screen and (max-device-width: 1366px) {
     .bgimg-1, .bgimg-2, .bgimg-3 {
       background-attachment: scroll;
     }

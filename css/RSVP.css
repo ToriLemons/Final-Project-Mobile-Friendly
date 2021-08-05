@@ -14,8 +14,13 @@ form {
     padding: 10px;
 }
 
+label {
+    font-family:'newsreader', serif;
+}
+
 button {
     background-color: rgb(255, 232, 192);
+    font-family:'Cinzel', serif;
 }
 
 /* Background Image:
