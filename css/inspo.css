@@ -31,3 +31,7 @@ img {
 .logo {
     padding: 0;
 }
+
+.insptxtbox {
+    background-color: rgb(0, 0, 0, 0.4);
+}
